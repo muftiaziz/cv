@@ -1,0 +1,29 @@
+.exp-time {
+  float: right;
+}
+
+.exp-location {
+  margin-top: 1em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.exp-position {
+  position: relative;
+  left: 1em;
+}
+
+ul.experience> li {
+  margin-top: 1em;
+  list-style: none;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 3px dotted grey;
+}
+
+.text-grey {
+  color: #5d5d5d;
+}
+hr {
+  border-bottom: 3px dotted grey;
+}
