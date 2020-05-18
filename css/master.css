@@ -1,5 +1,23 @@
+body {
+  font-size: 1rem;
+}
+.skills-logo {
+  float: left;
+  margin-right: .5rem;
+}
+.exp-logo {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.exp-logo img {
+  max-width: 10rem;
+}
+
 .exp-time {
   float: right;
+  font-size: 1.6rem;
+  margin-left: 1rem;
 }
 
 .exp-location {
@@ -26,4 +44,29 @@ ul.experience> li {
 }
 hr {
   border-bottom: 3px dotted grey;
+}
+
+.skills {
+  padding-left: 0;
+}
+.skills li {
+  min-height: 5rem;
+}
+li.odd, li.even {
+  padding: 0.5em;
+  list-style: none;
+  margin: 3px 0px 3px 0px;
+}
+
+li.even {
+  /* background-color: #b9b5ab; */
+}
+
+li.odd {
+  /* background-color: #d0cbc0; */
+}
+
+li.odd:hover, li.even:hover {
+  background-color: grey;
+  color: white;
 }
