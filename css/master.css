@@ -80,9 +80,9 @@ h2 {
   font-size: 2em;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1028px) {
   body {
-    font-size: 2.0rem;
+    font-size: 3rem;
   }
   h3 {
     margin: 5%
@@ -94,9 +94,8 @@ h2 {
   }
 
 }
-@media (min-width: 901px) {
+@media (min-width: 1029px) {
   body {
     font-size: 1.2rem;
-    background-color: white;
   }
 }
