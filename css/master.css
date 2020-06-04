@@ -28,8 +28,11 @@ body {
 }
 
 .exp-position {
-  position: relative;
-  left: 1em;
+  font-size: 1.2em;
+}
+
+ul.experience {
+  padding-left: 0px;
 }
 
 ul.experience> li {
@@ -38,6 +41,7 @@ ul.experience> li {
   margin-bottom: 2em;
   padding-bottom: 1em;
   border-bottom: 3px dotted grey;
+  padding-left: 0px;
 }
 
 .text-grey {
